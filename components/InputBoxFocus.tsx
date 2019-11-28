@@ -1,5 +1,5 @@
 import React from 'react'
-
+//using simple ref
 export default function InputBoxFocus(){
   let inputHandle=React.createRef();
 

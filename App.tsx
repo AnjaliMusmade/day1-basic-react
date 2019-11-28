@@ -9,6 +9,10 @@ import TextInput  from './components/TextInput'
 import HelloWorlddestructuring from './components/HelloWorlddestructuring';
 import DestructuringInArgumets from './components/DestructuringInArgumets';
 import InputBoxFocus from './components/InputBoxFocus';
+import InputBoxFocusCallBackRef from './components/InputBoxFocusCallBackRef';
+import InputBoxFocusClass from './components/InputBoxFocusClass';
+
+
 
 
 function ClickHandler(e)
@@ -30,7 +34,9 @@ export default function App(){
    <HelloWorldPropsClass FirstName="Anjali" LastName="Musmade" Salary="1000" /><hr/><hr/>
    <HelloWorldPureComponent FirstName="AB45" LastName="XYZ" 
    Salary="1002"/><hr/>
-   <InputBoxFocus/>
+   <InputBoxFocus/><hr/>
+   <InputBoxFocusCallBackRef/><hr/>
+   <InputBoxFocusClass/>
   </div>
   )
 }
