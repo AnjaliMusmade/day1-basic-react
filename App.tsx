@@ -6,6 +6,9 @@ import HelloWorldProps from './components/HelloWorldProps';
 import HelloWorldPropsClass from './components/HelloWorldPropsClass';
 import HelloWorldPureComponent from './components/HelloWorldPureComponent';
 import TextInput  from './components/TextInput'
+import HelloWorlddestructuring from './components/HelloWorlddestructuring';
+import DestructuringInArgumets from './components/DestructuringInArgumets';
+
 
 
 function ClickHandler(e)
@@ -21,7 +24,8 @@ export default function App(){
   <HelloWorld/><br/><hr/>
   <HelloWorld1/><br/><hr/>
   <HelloWorld2/><br/><hr/>
-  
+  <HelloWorlddestructuring name="A" proj="B"/><hr/>
+  <DestructuringInArgumets name="ABC" proj="BCD"/><hr/>
    <HelloWorldProps name="Anjali" MyHandler={ClickHandler}/><hr/><hr/>
    <HelloWorldPropsClass FirstName="Anjali" LastName="Musmade" Salary="1000" /><hr/><hr/>
    <HelloWorldPureComponent FirstName="AB45" LastName="XYZ" 

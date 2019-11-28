@@ -1,6 +1,6 @@
-import React, { Component }  from 'react'
+import React, { Component as C }  from 'react'
 
-export class HelloWorld2 extends Component{
+export class HelloWorld2 extends C{
   constructor(props)
   {
     super(props);
