@@ -8,7 +8,7 @@ import HelloWorldPureComponent from './components/HelloWorldPureComponent';
 import TextInput  from './components/TextInput'
 import HelloWorlddestructuring from './components/HelloWorlddestructuring';
 import DestructuringInArgumets from './components/DestructuringInArgumets';
-
+import InputBoxFocus from './components/InputBoxFocus';
 
 
 function ClickHandler(e)
@@ -29,7 +29,8 @@ export default function App(){
    <HelloWorldProps name="Anjali" MyHandler={ClickHandler}/><hr/><hr/>
    <HelloWorldPropsClass FirstName="Anjali" LastName="Musmade" Salary="1000" /><hr/><hr/>
    <HelloWorldPureComponent FirstName="AB45" LastName="XYZ" 
-   Salary="1002"/><hr/><hr/>
+   Salary="1002"/><hr/>
+   <InputBoxFocus/>
   </div>
   )
 }
