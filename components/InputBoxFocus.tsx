@@ -8,8 +8,11 @@ export default function InputBoxFocus(){
   }
   return(
  <div>
+ <h5>input to focus using createref</h5>
  <input type="text" ref={inputHandle}/>
  <input type="button" value="Click Me To Focus" onClick={OnClick}/>
+ 
+ <button onClick={OnClick}>Click For Focus</button>
  </div>
   )
 };
