@@ -11,7 +11,7 @@ import DestructuringInArgumets from './components/DestructuringInArgumets';
 import InputBoxFocus from './components/InputBoxFocus';
 import InputBoxFocusCallBackRef from './components/InputBoxFocusCallBackRef';
 import InputBoxFocusClass from './components/InputBoxFocusClass';
-
+import BorderComponent from './components/BorderComponent';
 
 
 
@@ -36,7 +36,14 @@ export default function App(){
    Salary="1002"/><hr/>
    <InputBoxFocus/><hr/>
    <InputBoxFocusCallBackRef/><hr/>
-   <InputBoxFocusClass/>
+   <InputBoxFocusClass/><hr/>
+   <BorderComponent>
+   <div>
+   {//to use the nested components cutomized as we need.
+   }
+   <button>Button in nested compo</button>
+   </div>
+   </BorderComponent>
   </div>
   )
 }
