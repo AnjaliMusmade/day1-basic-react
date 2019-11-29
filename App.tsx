@@ -5,7 +5,6 @@ import {HelloWorld2} from './components/HelloWorld2';
 import HelloWorldProps from './components/HelloWorldProps';
 import HelloWorldPropsClass from './components/HelloWorldPropsClass';
 import HelloWorldPureComponent from './components/HelloWorldPureComponent';
-import TextInput  from './components/TextInput'
 import HelloWorlddestructuring from './components/HelloWorlddestructuring';
 import DestructuringInArgumets from './components/DestructuringInArgumets';
 import InputBoxFocus from './components/InputBoxFocus';
