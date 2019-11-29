@@ -39,8 +39,8 @@ export default function App(){
    <InputBoxFocusClass/><hr/>
    <BorderComponent>
    <div>
-   {//to use the nested components cutomized as we need.
-   }
+  to use the nested components cutomized as we need.<br/><br/>
+
    <button>Button in nested compo</button>
    </div>
    </BorderComponent>
