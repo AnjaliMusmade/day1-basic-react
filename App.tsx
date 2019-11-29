@@ -12,7 +12,7 @@ import InputBoxFocus from './components/InputBoxFocus';
 import InputBoxFocusCallBackRef from './components/InputBoxFocusCallBackRef';
 import InputBoxFocusClass from './components/InputBoxFocusClass';
 import BorderComponent from './components/BorderComponent';
-
+import BorderComponentHoc from './components/BorderComponentHoc';
 
 
 function ClickHandler(e)
@@ -44,6 +44,16 @@ export default function App(){
    <button>Button in nested compo</button>
    </div>
    </BorderComponent>
+<hr/>
+ <BorderComponentHoc name="Anjali">
+   <div>
+  to use HOC to cover any our component with additional fature which can be used frequently.
+  Here the original component kept as it is and new one created using old.<br/><br/>
+
+   <button>Button in nested compo</button>
+   </div>
+   </BorderComponentHoc>
+
   </div>
   )
 }
